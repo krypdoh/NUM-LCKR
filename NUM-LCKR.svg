@@ -1,0 +1,20 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9D47FF"/>
+      <stop offset="50%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#6F1FB8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded glossy purple square -->
+  <rect x="64" y="64" width="896" height="896" rx="180" fill="url(#grad)"/>
+
+  <!-- Glossy highlight -->
+  <path d="M64 300 Q512 80 960 300 L960 200 Q512 0 64 200 Z"
+        fill="rgba(255,255,255,0.22)"/>
+
+  <!-- Big bold blocky N -->
+  <path d="M330 290 H450 L675 650 V290 H795 V735 H675 L450 375 V735 H330 Z"
+        fill="white"/>
+</svg>
