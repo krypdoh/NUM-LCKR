@@ -15,7 +15,7 @@ Persistent
 
 ; --- Configuration ---
 global AppList := []
-global ConfigFile := A_ScriptDir "\numandapps.ini"
+global ConfigFile := A_ScriptDir "\NUM-LCKR.ini"
 global MonitorTimer := 0
 global NumWasForced := false
 
