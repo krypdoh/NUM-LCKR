@@ -37,7 +37,7 @@ BuildTrayMenu() {
     A_TrayMenu.Add("Exit", (*) => ExitApp())
     A_TrayMenu.Default := "View/Remove Programs"
 
-    TraySetIcon(A_ScriptDir "\numandapps.ico")   ; <-- Purple N icon
+    TraySetIcon(A_ScriptDir "\NUM-LCKR.ico")   ; <-- Purple N icon
     A_IconTip := "NumLock Auto-Enable"
 }
 
